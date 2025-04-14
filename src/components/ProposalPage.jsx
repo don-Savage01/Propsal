@@ -58,28 +58,28 @@ export default function ProposalPage() {
         {!showYesButtons ? (
           <div className="space-x-6">
             <button
-              className="bg-green-400 text-white px-6 py-3 rounded-xl text-xl hover:bg-green-500"
+              className="bg-green-400 text-white px-4 py-3 rounded-xl text-xl hover:bg-green-500"
               onClick={() => handleChoice("yes")}
             >
               Yes 💍
             </button>
             <button
-              className="bg-red-400 text-white px-6 py-3 rounded-xl text-xl hover:bg-red-500"
+              className="bg-red-400 text-white px-4 py-3 rounded-xl text-xl hover:bg-red-500"
               onClick={() => handleChoice("no")}
             >
               No 😢
             </button>
           </div>
         ) : (
-          <div className="space-x-6">
+          <div className="space-x-6 ">
             <button
-              className="bg-green-400 text-white px-6 py-3 rounded-xl text-xl hover:bg-green-500"
+              className="bg-green-400 text-white px-4 py-3 rounded-xl text-xl hover:bg-green-500"
               onClick={() => handleChoice("yes")}
             >
               Yes 💍
             </button>
             <button
-              className="bg-green-400 text-white px-6 py-3 rounded-xl text-xl hover:bg-green-500"
+              className="bg-green-400 text-white px-4 py-3 rounded-xl text-xl hover:bg-green-500"
               onClick={() => handleChoice("yes")}
             >
               Yes 💍
