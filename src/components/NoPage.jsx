@@ -14,12 +14,12 @@ export default function NoPage() {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-blue-100 text-center">
-      <h1 className="text-3xl font-bold mb-4">Oh no... 😢</h1>
-      <p className="text-lg mb-6">I'm heartbroken...</p>
+      <h1 className="text-3xl font-bold mb-4">
+        Better, cause you no fit see for here...
+      </h1>
+      <p className="text-lg mb-6">😂 Shogbo</p>
       <img src="/sad-teddy.gif" alt="Sad Teddy" className="w-64 h-64" />
-      <p className="text-sm mt-4 text-red-500">
-        You would either be mine or mine, let's watch and see...
-      </p>
+      <p className="text-sm mt-4 text-red-500">Omo lile</p>
     </div>
   );
 }
