@@ -79,7 +79,7 @@ export default function ProposalPage() {
               className="bg-green-400 text-white px-4 py-3 rounded-xl text-xl hover:bg-green-500"
               onClick={() => handleChoice("yes")}
             >
-              I No Know
+              Hmm
             </button>
           </div>
         )}
